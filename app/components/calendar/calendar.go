@@ -37,6 +37,20 @@ func (c Calendar) WeekHeader(weekNum bool) string {
 	return strings.Join(names, " & ")
 }
 
+func (c Calendar) WeekHeaderShort(weekNum bool) string {
+	names := append(make([]string, 0, 8), "W")
+
+	for i := time.Sunday; i < 7; i++ {
+		names = append(names, "\\hfil{}"+((c.wd + i) % 7).String()[:3])
+	}
+
+	if !weekNum {
+		names = names[1:]
+	}
+
+	return strings.Join(names, " & ")
+}
+
 func (c Calendar) WeekHeaderFull(weekNum bool) string {
 	names := make([]string, 0, 7)
 

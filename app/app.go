@@ -148,9 +148,5 @@ var ComposerMap = map[string]Composer{
 	"header_daily_notes2":      compose.HeaderDailyNotes2,
 	"header_daily_reflect":     compose.HeaderDailyReflect,
 	"header_daily_reflect2":    compose.HeaderDailyReflect2,
-	"header_notes_indexed":     compose.HeaderNotesIndexed,
-	"header_notes_indexed2":    compose.HeaderNotesIndexed2,
-	"header_todos_indexed":     compose.HeaderTodosIndexed,
-	"header_todos_indexed2":    compose.HeaderTodosIndexed2,
 	"header_meetings_indexed2": compose.HeaderMeetingsIndexed2,
 }

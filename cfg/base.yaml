@@ -38,7 +38,7 @@ layout:
     lineheightbutline: \dimexpr5mm-.4pt
     twocolsep: 5pt
     tricolsep: 5pt
-    monthlycellheight: 55pt
+    monthlycellheight: 45pt
     notesindexcellheight: 1.37cm
     headerresizebox: 6mm
     headersidequarterswidth: 4cm

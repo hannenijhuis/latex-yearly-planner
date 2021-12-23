@@ -1,0 +1,22 @@
+layout:
+  paper:
+    margin:
+      left: 1cm
+
+  numbers:
+    arraystretch: 1.2
+    quarterlylines: 7
+    weeklylines: 7
+    dailybottomhour: 9
+    dailytophour: 17
+    dailytodos: 5
+    dailynotes: 10
+    dailypersonal: 5
+    dailydiarygoals: 10
+    dailydiarygrateful: 6
+    dailydiarybest: 4
+    dailydiarylog: 23
+
+  lengths:
+    headersidequarterswidth: 3cm
+    headersidemonthswidth: 10.35cm

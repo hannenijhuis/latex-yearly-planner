@@ -17,7 +17,7 @@ func HeaderDailyNotes(cfg config.Config, tpls []string) (page.Modules, error) {
 		return nil, fmt.Errorf("exppected one tpl, got %d %v", len(tpls), tpls)
 	}
 
-	modules := make(page.Modules, 0, 366)
+	modules := make(page.Modules, 0, 3)
 	day := calendar.DayTime{Time: time.Date(cfg.Year, time.January, 1, 0, 0, 0, 0, time.Local)}
 	dayLayout := "Monday, 2"
 	if cfg.ClearTopRightCorner {

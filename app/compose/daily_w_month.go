@@ -14,7 +14,7 @@ func DailyWMonth(cfg config.Config, tpls []string) (page.Modules, error) {
 		return nil, fmt.Errorf("exppected one tpl, got %d %v", len(tpls), tpls)
 	}
 
-	modules := make(page.Modules, 0, 366)
+	modules := make(page.Modules, 0, 3)
 	soy := time.Date(cfg.Year, time.January, 1, 0, 0, 0, 0, time.Local)
 	eoy := soy.AddDate(1, 0, 0)
 

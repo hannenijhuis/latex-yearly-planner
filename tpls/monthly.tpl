@@ -4,7 +4,7 @@
   {{- else -}} | {{- end -}}
   *{7}{@{}X@{}|}}
 \noalign{\hrule height \myLenLineThicknessThick}
-{{.Body.WeekHeaderFull $.Cfg.Pages.WeeklyEnabled}} \\ \noalign{\hrule height \myLenLineThicknessThick}
+{{.Body.WeekHeaderShort $.Cfg.Pages.WeeklyEnabled}} \\ \noalign{\hrule height \myLenLineThicknessThick}
 
 {{ .Body.MatrixTexed .Cfg.Pages.WeeklyEnabled true true nil }}
 
